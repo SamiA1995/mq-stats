@@ -1,0 +1,48 @@
+#my_chart .line caption {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+#my_chart .line td {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+#my_chart .line th {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#my_chart {
+  width: 40%;
+  height: 400px;
+  font-family: "Segoe UI";
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+#navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#side_bar {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 15%;
+    float: left;
+}
+
+#main_content {
+    width: 80%;
+    margin-top: 50px;
+    float: right;
+}
+
+#database_table {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}

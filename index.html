@@ -1,0 +1,271 @@
+<html>
+<head>
+    <title>MQ stats</title>
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="charts.min.css">
+    <link rel="stylesheet" href="checkbox.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+    <body>
+        <div id = "navigation">
+            <button id  = "alerts_navigation">
+                <span>Alerts</span>
+            </button>
+
+            <button id  = "database_navigation">
+                <span>Database</span>
+            </button>
+
+            <button id  = "monitoring_navigation">
+                <span>Monitoring</span>
+            </button>
+
+            <button id  = "Statistics_navigation">
+                <span>Statistics</span>
+            </button>
+        </div>
+        <div id = "side_bar">
+            <div class="coolinput">
+                <label for="input" class="text">Queue:</label>
+                <input type="text" placeholder="e.g. BT.CL..." name="input" class="input">
+            </div>
+            <br />
+            <div class="coolinput">
+                <label for="input" class="text">Queue Manager:</label>
+                <input type="text" placeholder="e.g. BT.QM..." name="input" class="input">
+            </div>
+            <br />
+            <div class="coolinput">
+                <label for="input" class="text">Hostname:</label>
+                <input type="text" placeholder="e.g. blt02752006" name="input" class="input">
+            </div>
+            <br />
+            <div class="coolinput">
+                <label for="input" class="text">Application:</label>
+                <input type="text" placeholder="e.g. Flowmanage" name="input" class="input">
+            </div>
+            <label class="container">
+                <input checked="checked" type="checkbox">
+                <div class="checkmark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test</div>
+            </label>
+            <br />
+            <label class="container">
+                <input checked="checked" type="checkbox">
+                <div class="checkmark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Production</div>
+            </label>
+        </div>
+        <div id = "main_content">
+            <div id="my_chart">
+                <table class="charts-css line show-heading show-labels show-primary-axis show-10-secondary-axes">
+
+                    <caption> DEV.QUEUE.9 put count</caption>
+
+                    <tbody id = line_chart_1>
+                        <tr>
+                            <th scope="row"> -30s </th>
+                            <td style="--start: 0.0; --end: 0.0;"> 0 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> -25s </th>
+                            <td style="--start: 0.0; --end: 0.0;"> 0 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> -20s </th>
+                            <td style="--start: 0.0; --end: 0.0;"> 0 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> -15s </th>
+                            <td style="--start: 0.0; --end: 0.0;"> 0 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> -10s </th>
+                            <td style="--start: 0.0; --end: 0.0;"> 0 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"> -5s </th>
+                            <td style="--start: 0.0; --end: 0.0;"> 0 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card" id = "database_table">
+                <div class="card__title">Database search</div>
+                <div class="card__data">
+                    <div class="card__right">
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                        <div class="item">BT.CL.</div>
+                    </div>
+                    <div class="card__right">
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                        <div class="item">BT.QM.EMB</div>
+                    </div>
+                    <div class="card__right">
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                        <div class="item">blt027520</div>
+                    </div>
+                    <div class="card__right">
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                        <div class="item">Flowmanage</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="updateStats.js"></script>
+    <script src="navigation.js"></script>
+    <script src="jquery.js"></script>
+</head>
+</html>
